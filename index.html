@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEEPCHAND GUPTA| Actor | Theatre | Cinema
+</title>
+    <meta name="About Me" content="I am Deepchand Gupta, a Mumbai-based actor originally from Gorakhpur, Uttar Pradesh, and an alumnus of Bharatendu Natya Academy (BNA), Lucknow. With over 7 years of theatre experience, I have worked in a feature film and short films. My training has helped me build strong skills in character development, body movement, voice work, and performance. I am fluent in Hindi, Bhojpuri, and English, and I also have experience in dance and movement-based performance.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #050507;
+        }
+        .font-cinzel {
+            font-family: 'Cinzel', serif;
+        }
+        /* Custom Cinematic Film Grain Effect */
+        .film-grain::after {
+            content: "";
+            position: fixed;
+            top: -50%; right: -50%; bottom: -50%; left: -50%;
+            z-index: 9999;
+            background: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
+            opacity: 0.025;
+            pointer-events: none;
+        }
+        /* Custom Gold Text & Border Gradient */
+        .text-gold {
+            background: linear-gradient(135deg, #BF953F 0%, #FCF6BA 25%, #B38728 50%, #FBF5B7 75%, #AA771C 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .border-gold {
+            border-image: linear-gradient(to right, #BF953F, #AA771C) 1;
+        }
+        /* Hide Scrollbar for clean UI */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #050507; }
+        ::-webkit-scrollbar-thumb { background: #1c1c24; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #AA771C; }
+    </style>
+</head>
+<body class="text-gray-300 overflow-x-hidden film-grain">
+
+    <header class="fixed top-0 w-full z-50 bg-[#050507]/80 backdrop-blur-md border-b border-white/5 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="font-cinzel text-xl font-bold tracking-widest text-white hover:opacity-80 transition">DH<span class="text-gold">.</span></a>
+            
+            <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-widest font-medium">
+                <a href="#about" class="hover:text-white transition duration-300">About</a>
+                <a href="#gallery" class="hover:text-white transition duration-300">Gallery</a>
+                <a href="#work" class="hover:text-white transition duration-300">Featured Work</a>
+                <a href="#resources" class="hover:text-white transition duration-300">Resources</a>
+                <a href="#contact" class="hover:text-white transition duration-300">Contact</a>
+            </nav>
+
+            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl focus:outline-none">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-[#050507] border-b border-white/5 w-full absolute top-20 left-0 px-6 py-6 flex flex-col space-y-4 text-center tracking-widest text-sm uppercase">
+            <a href="#about" class="block py-2 text-gray-400 hover:text-white">About</a>
+            <a href="#gallery" class="block py-2 text-gray-400 hover:text-white">Gallery</a>
+            <a href="#work" class="block py-2 text-gray-400 hover:text-white">Featured Work</a>
+            <a href="#resources" class="block py-2 text-gray-400 hover:text-white">Resources</a>
+            <a href="#contact" class="block py-2 text-gray-400 hover:text-white">Contact</a>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-500/10 rounded-full blur-[160px] pointer-events-none"></div>
+        <div class="absolute bottom-0 w-full h-96 bg-gradient-to-t from-[#050507] to-transparent z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-20 py-12">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left order-2 lg:order-1">
+    <h1 class="font-cinzel text-5xl sm:text-7xl xl:text-8xl font-black tracking-tight text-white leading-none">
+        DEEPCHAND <br><span class="text-gold">GUPTA</span>
+    </h1>
+    <div class="h-[1px] w-24 bg-gradient-to-r from-amber-500 to-transparent mx-auto lg:mx-0 my-4"></div>
+    <p class="font-cinzel text-lg sm:text-2xl font-light tracking-[0.3em] text-gray-400 uppercase">
+        Actor <span class="text-amber-500/50">•</span> Theatre <span class="text-amber-500/50">•</span> Cinema
+    </p>
+    <div class="pt-4 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+        <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-black font-semibold tracking-widest text-xs uppercase rounded-none transition duration-300 shadow-lg shadow-amber-900/20">
+            Book Consultant
+        </a>
+    </div>
+</div><div class="lg:col-span-5 order-1 lg:order-2 flex justify-center">
+                <div class="relative w-72 sm:w-96 h-[450px] sm:h-[550px] group">
+                    <div class="absolute inset-0 border border-amber-500/30 translate-x-4 translate-y-4 transition duration-500 group-hover:translate-x-2 group-hover:translate-y-2"></div>
+                    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute top-1/2 right-1/4 -translate-y-1/2 w-[600px] h-[600px] bg-amber-500/5 rounded-full blur-[150px]"></div>
+    <div class="absolute bottom-10 left-10 w-[400px] h-[400px] bg-white/5 rounded-full blur-[120px]"></div>
+</div>
+                    <img src="images/profile.JPG" alt="DEEPCHAND GUPTA " class="w-full h-full object-cover object-top border border-white/10">>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-[#0a0a0f] border-y border-white/5 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="space-y-6">
+    <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white">About Me</h2>
+                    <p class="text-gray-400 font-light leading-relaxed">
+                         I am Deepchand Gupta, a Mumbai-based actor originally from Gorakhpur, Uttar Pradesh, and an alumnus of Bharatendu Natya Academy (BNA), Lucknow. With over 7 years of theatre experience, I have worked in a feature film and short films. My training has helped me build strong skills in character development, body movement, voice work, and performance. I am fluent in Hindi, Bhojpuri, and English, and I also have experience in dance and movement-based performance.
+                    </p>
+                    <p class="text-gray-400 font-light leading-relaxed">
+                       
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/5">
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-wider">Height</p>
+                            <p class="text-lg font-medium text-white">5'7" / 170 cm</p>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-wider">Skin Tone</p>
+                            <p class="text-lg font-medium text-white">wheatish</p>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-wider">Hair</p>
+                            <p class="text-lg font-medium text-white">Curly</p>
+                        </div>
+                        <div>
+                            <p class="text-xs uppercase text-gray-500 tracking-wider">DOB</p>
+                            <p class="text-lg font-medium text-white">13/08/2000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12 gap-4">
+                    <div class="col-span-8">
+                       <img src="images/photo2.jpg" class="w-full aspect-[3/4] object-cover rounded-sm shadow-md" alt="Actor Headshot">
+                    </div>
+                    <div class="col-span-4 flex items-end">
+                        <div class="p-4 bg-gradient-to-br from-amber-500/10 to-transparent border-l border-amber-500/30 w-full">
+                            <p class="font-cinzel text-3xl font-bold text-white"></p>
+                            <p class="text-xs uppercase tracking-wider text-gray-400"></p>
+                        </div>
+                    </div>
+                    <div class="col-span-4">
+                        <div class="p-4 bg-gradient-to-tl from-amber-500/10 to-transparent border-r border-amber-500/30 h-full flex flex-col justify-between">
+                            <div></div>
+                            <div>
+                                <p class="font-cinzel text-3xl font-bold text-white"></p>
+                                <p class="text-xs uppercase tracking-wider text-gray-400"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-8">
+                       <img src="images/photo3.jpg" class="w-full aspect-[3/4] object-cover rounded-sm shadow-md" alt="Actor Headshot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center space-y-4 mb-16">
+            <span class="text-xs font-bold uppercase tracking-[0.5em] text-amber-500"></span>
+            <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white">Portfolio Gallery</h2>
+            <div class="h-[1px] w-24 bg-amber-500/30 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo4.JPG')">
+                <img src="images/photo4.JPG"Headshot" class="w-full h-full object-cover transition duration-500 group-hover:scale-105 group-hover:filter brightness-90 group-hover:brightness-100">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo5.JPG')">
+                <img src="images/photo5.JPG" alt="Character Shot" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo6.JPG')">
+                <img src="images/photo6.JPG" alt="Theatrical" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo7.JPG')">
+                <img src="images/photo7.JPG"Editorial" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo8.JPG')">
+                <img src="images/photo8.JPG"Profile" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo9.JPG')">
+                <img src="images/photo9.JPG"Action Set" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo10.JPG')">
+                <img src="images/photo10.JPG"Artistic" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+            <div class="relative overflow-hidden group cursor-pointer aspect-[3/4]" onclick="openLightbox('images/photo11.JPG')">
+                <img src="images/photo11.JPG"Emotional Shot" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 p-6 flex flex-col justify-end">
+                    <p class="text-xs tracking-widest text-amber-400 uppercase"></p>
+                    <p class="font-cinzel text-lg text-white font-medium"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="py-24 bg-[#0a0a0f] border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-6">
+        
+        <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-16 gap-6">
+            <div class="space-y-4">
+                <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white">Featured Work</h2>
+            </div>
+            
+            <div class="flex flex-wrap gap-2 text-xs uppercase tracking-wider">
+                <button class="px-5 py-2.5 bg-amber-500 text-black font-semibold border border-amber-500 transition duration-300">All</button>
+                
+                <a href=" https://youtube.com/playlist?list=PL-pjpyvkEXUvMqVDpcVdGMJsnXmArFinM&si=Ip-AvObUwg43bXG8" target="_blank" class="px-5 py-2.5 bg-transparent text-gray-400 border border-white/10 hover:border-amber-500 hover:text-white transition duration-300 flex items-center">
+                    Theatre & Screen Work <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-[10px]"></i>
+                </a>
+                
+                <a href=" https://youtube.com/playlist?list=PL-pjpyvkEXUvbKkLfpVcSTBtb6glxdAkz&si=udayrQFpTHDDTxlY" target="_blank" class="px-5 py-2.5 bg-transparent text-gray-400 border border-white/10 hover:border-amber-500 hover:text-white transition duration-300 flex items-center">
+                    Dance & Martial Arts <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-[10px]"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-8">
+            
+            <a href=" https://youtube.com/playlist?list=PL-pjpyvkEXUvMqVDpcVdGMJsnXmArFinM&si=Ip-AvObUwg43bXG8" target="_blank" class="block bg-[#050507] border border-white/5 hover:border-amber-500/30 transition-all duration-300 group">
+                <div class="relative overflow-hidden aspect-video">
+                    <img src="images/screen.JPG" alt="Theatre and Screen Work" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <span class="p-3 bg-white text-black text-xs font-bold tracking-widest uppercase"><i class="fa-solid fa-play mr-2"></i>Watch Video</span>
+                    </div>
+                </div>
+                <div class="p-6 space-y-3">
+                    <div class="flex justify-between text-xs text-amber-500 tracking-wider">
+                        <span>Theatre & Screen</span>
+                        <span></span>
+                    </div>
+                    <h3 class="font-cinzel text-xl text-white font-bold tracking-wide">Theatre & Screen Work</h3>
+                    <p class="text-xs text-gray-400 font-light leading-relaxed"></p>
+                </div>
+            </a>
+
+            <a href=" https://youtube.com/playlist?list=PL-pjpyvkEXUvbKkLfpVcSTBtb6glxdAkz&si=udayrQFpTHDDTxlY" target="_blank" class="block bg-[#050507] border border-white/5 hover:border-amber-500/30 transition-all duration-300 group">
+                <div class="relative overflow-hidden aspect-video">
+                    <img src="images/arts.JPG" alt="Dance and Martial Arts" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <span class="p-3 bg-white text-black text-xs font-bold tracking-widest uppercase"><i class="fa-solid fa-play mr-2"></i>Watch Video</span>
+                    </div>
+                </div>
+                <div class="p-6 space-y-3">
+                    <div class="flex justify-between text-xs text-amber-500 tracking-wider">
+                        <span>Dance & Martial Arts</span>
+                        <span></span>
+                    </div>
+                    <h3 class="font-cinzel text-xl text-white font-bold tracking-wide">Dance & Martial Arts</h3>
+                    <p class="text-xs text-gray-400 font-light leading-relaxed"></p>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+                    
+                                  
+    <section id="resources" class="py-24 bg-[#050507] border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-6">
+        
+        <div class="text-center mb-16">
+            <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white tracking-wide uppercase">Media & Resources</h2>
+            <div class="w-24 h-[1px] bg-amber-500/50 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-5xl mx-auto gap-6 justify-center">
+            
+            <a href="Deep Acting CV.pdf" download class="relative flex flex-col items-center justify-between p-8 bg-[#0a0a0f] border border-white/5 hover:border-amber-500/40 transition-all duration-300 group text-center min-h-[240px] overflow-hidden">
+                <div class="absolute inset-0 opacity-20 group-hover:opacity-35 transition duration-500">
+                    <img src="images/cv.JPG" alt="Resume Background" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="relative z-10 mt-2">
+                    <i class="fa-solid fa-file-pdf text-3xl text-amber-500"></i>
+                </div>
+                <div class="relative z-10 space-y-1 my-4">
+                    <h3 class="font-cinzel text-sm font-bold text-white tracking-wider uppercase">Actor Resume</h3>
+                    <p class="text-[10px] text-gray-400 tracking-widest uppercase">PDF Download</p>
+                </div>
+                <div class="relative z-10">
+                    <i class="fa-solid fa-arrow-down text-xs text-gray-500 group-hover:text-amber-500 transition-colors"></i>
+                </div>
+            </a>
+
+            <a href="https://youtube.com/playlist?list=PL-pjpyvkEXUsshEFOs2px6tsxahQprmn8&si=F3S9oDqfntnkbaXS
+" target="_blank" class="relative flex flex-col items-center justify-between p-8 bg-[#0a0a0f] border border-white/5 hover:border-amber-500/40 transition-all duration-300 group text-center min-h-[240px] overflow-hidden">
+                <div class="absolute inset-0 opacity-20 group-hover:opacity-35 transition duration-500">
+                    <img src="images/reel.JPG" alt="Showreel Background" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="relative z-10 mt-2">
+                    <i class="fa-solid fa-clapperboard text-3xl text-amber-500"></i>
+                </div>
+                <div class="relative z-10 space-y-1 my-4">
+                    <h3 class="font-cinzel text-sm font-bold text-white tracking-wider uppercase">Audition Showreel</h3>
+                    <p class="text-[10px] text-gray-400 tracking-widest uppercase"></p>
+                </div>
+                <div class="relative z-10">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs text-gray-500 group-hover:text-amber-500 transition-colors"></i>
+                </div>
+            </a>
+
+            <a href="https://drive.google.com/drive/folders/1uj3GKrnx6-YeaSc9KMl4fHB5I-mU8OOM" download class="relative flex flex-col items-center justify-between p-8 bg-[#0a0a0f] border border-white/5 hover:border-amber-500/40 transition-all duration-300 group text-center min-h-[240px] overflow-hidden">
+                <div class="absolute inset-0 opacity-20 group-hover:opacity-35 transition duration-500">
+                    <img src="images/pic.JPG" alt="Pictures Background" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="relative z-10 mt-2">
+                    <i class="fa-solid fa-images text-3xl text-amber-500"></i>
+                </div>
+                <div class="relative z-10 space-y-1 my-4">
+                    <h3 class="font-cinzel text-sm font-bold text-white tracking-wider uppercase">Pictures</h3>
+                    <p class="text-[10px] text-gray-400 tracking-widest uppercase"></p>
+                </div>
+                <div class="relative z-10">
+                    <i class="fa-solid fa-arrow-down text-xs text-gray-500 group-hover:text-amber-500 transition-colors"></i>
+                </div>
+            </a>
+
+            <a href="cert.JPG" download class="relative flex flex-col items-center justify-between p-8 bg-[#0a0a0f] border border-white/5 hover:border-amber-500/40 transition-all duration-300 group text-center min-h-[240px] overflow-hidden">
+                <div class="absolute inset-0 opacity-20 group-hover:opacity-35 transition duration-500">
+                    <img src="cert.JPG" alt="Certificates Background" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="relative z-10 mt-2">
+                    <i class="fa-solid fa-award text-3xl text-amber-500"></i>
+                </div>
+                <div class="relative z-10 space-y-1 my-4">
+                    <h3 class="font-cinzel text-sm font-bold text-white tracking-wider uppercase">Certificates</h3>
+                    <p class="text-[10px] text-gray-400 tracking-widest uppercase">Training Archive</p>
+                </div>
+                <div class="relative z-10">
+                    <i class="fa-solid fa-arrow-down text-xs text-gray-500 group-hover:text-amber-500 transition-colors"></i>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+               
+                             <section class="py-12 bg-[#050507] border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+            
+            <a href="https://www.instagram.com/imdeephuman?igsh=OTVvYzBvdG1xajZ3&utm_source=qr" target="_blank" class="flex items-center gap-3 group text-gray-400 hover:text-white transition duration-300">
+                <div class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-amber-500/50 group-hover:bg-amber-500/10 transition duration-300">
+                    <i class="fa-brands fa-instagram text-lg text-amber-500"></i>
+                </div>
+                <div class="text-left">
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500 font-medium">Instagram</p>
+                    <p class="text-xs font-semibold tracking-wide"> https://www.instagram.com/imdeephuman?igsh=OTVvYzBvdG1xajZ3&utm_source=qr</p>
+                </div>
+            </a>
+
+            <a href="https://youtube.com/@deephuman734?si=3J0QKJWTYT90JkUT" target="_blank" class="flex items-center gap-3 group text-gray-400 hover:text-white transition duration-300">
+                <div class="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-amber-500/50 group-hover:bg-amber-500/10 transition duration-300">
+                    <i class="fa-brands fa-youtube text-lg text-amber-500"></i>
+                </div>
+                <div class="text-left">
+                    <p class="text-[10px] uppercase tracking-widest text-gray-500 font-medium">https://youtube.com/@deephuman734?si=3J0QKJWTYT90JkUT</p>
+                    <p class="text-xs font-semibold tracking-wide"></p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+            
+            <div class="lg:col-span-5 space-y-8">
+                <div class="space-y-4">
+                    <span class="text-xs font-bold uppercase tracking-[0.5em] text-amber-500"></span>
+                    <h2 class="font-cinzel text-3xl sm:text-5xl font-bold text-white">Let's Create</h2>
+                    <p class="text-gray-400 font-light text-sm sm:text-base leading-relaxed">Open to films, web series, short films, and creative collaborations. Always looking to work with directors, writers, casting professionals, and production teams to bring meaningful stories to life.</p>
+                </div>
+                
+                <div class="space-y-6 text-sm">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 text-amber-500"><i class="fa-regular fa-envelope"></i></div>
+                        <div>
+                            <p class="text-gray-500 uppercase tracking-wider text-[10px]">Direct Email</p>
+                            <a href="deephuman734@gmail.com" class="text-white hover:text-amber-400 transition">deephuman734@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                                                <div>
+                            <p class="text-gray-500 uppercase tracking-wider text-[10px]"></p>
+                            <a href="" class="text-white hover:text-amber-400 transition"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <div class="lg:col-span-7 bg-[#0a0a0f] border border-white/5 p-8 sm:p-10 relative">
+    <form action="https://formspree.io/f/xrevajzn" method="POST" class="space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="space-y-2">
+                <label class="text-[11px] uppercase tracking-widest text-gray-400" for="name">Your Name</label>
+                <input type="text" id="name" name="name" required class="w-full bg-[#050507] border border-white/10 focus:border-amber-500/50 text-white px-4 py-3 outline-none text-sm transition">
+            </div>
+            <div class="space-y-2">
+                <label class="text-[11px] uppercase tracking-widest text-gray-400" for="email">Email Address</label>
+                <input type="email" id="email" name="email" required class="w-full bg-[#050507] border border-white/10 focus:border-amber-500/50 text-white px-4 py-3 outline-none text-sm transition">
+            </div>
+        </div>
+
+        <div class="space-y-2">
+            <label class="text-[11px] uppercase tracking-widest text-gray-400" for="subject">Subject / Project Nature</label>
+            <input type="text" id="subject" name="subject" required class="w-full bg-[#050507] border border-white/10 focus:border-amber-500/50 text-white px-4 py-3 outline-none text-sm transition">
+        </div>
+
+        <div class="space-y-2">
+            <label class="text-[11px] uppercase tracking-widest text-gray-400" for="message">Project Description</label>
+            <textarea id="message" name="message" rows="5" required class="w-full bg-[#050507] border border-white/10 focus:border-amber-500/50 text-white px-4 py-3 outline-none text-sm transition resize-none"></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold text-xs uppercase tracking-widest border border-amber-500 transition duration-300">
+            Dispatch Message
+        </button>
+    </form>
+</div>
+        </div>
+    </section>
+
+    <footer class="border-t border-white/5 py-8 bg-[#050507]">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+            <p>&copy; 2026 DEEPCHAND GUPTA. All Rights Reserved.</p>
+            <div class="flex space-x-6 uppercase tracking-widest">
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 hidden flex-col items-center justify-center p-4 backdrop-blur-sm transition-all duration-300">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl hover:text-amber-400 transition focus:outline-none">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="max-w-4xl max-h-[80vh] relative">
+            <img id="lightbox-img" src="" alt="Preview Still" class="max-w-full max-h-[75vh] object-contain border border-white/10">
+        </div>
+        <p id="lightbox-caption" class="font-cinzel text-center text-gray-300 tracking-wider mt-4 text-sm sm:text-base"></p>
+    </div>
+
+    <script>
+        // Smooth Responsive Mobile Dropdown Logic
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu gracefully on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Premium Lightbox Management Layout
+        function openLightbox(src, captionText) {
+            const lightbox = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            const caption = document.getElementById('lightbox-caption');
+            
+            img.src = src;
+            caption.innerText = captionText;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.style.overflow = 'hidden'; // Lock background scroll
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+            document.body.style.overflow = 'auto'; // Free background scroll
+        }
+
+        // Live Dynamic Content Filtering Architecture
+        function filterSelection(category, element) {
+            const cards = document.querySelectorAll('.filter-card');
+            
+            // Remove active style state from all filter buttons
+            const buttons = element.parentElement.children;
+            for (let btn of buttons) {
+                btn.classList.remove('bg-amber-500', 'text-black', 'font-semibold');
+                btn.classList.add('bg-transparent', 'text-gray-400', 'border-white/10');
+            }
+            
+            // Style selected filter button actively
+            element.classList.add('bg-amber-500', 'text-black', 'font-semibold');
+            element.classList.remove('bg-transparent', 'text-gray-400');
+
+            // Toggle card sets smoothly
+            cards.forEach(card => {
+                if (category === 'all' || card.classList.contains(category)) {
+                    card.style.display = 'block';
+                    setTimeout(() => card.style.opacity = '1', 50);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
